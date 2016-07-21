@@ -10,8 +10,6 @@ class Exercicio01
 	end
 
 	def exibe()
-        @valores.each do |valor|
-            puts "Os valores sao #{valor}"
-        end
+		puts "Resultado : #{@valores.sort}"
 	end
 end
